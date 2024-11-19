@@ -11,14 +11,18 @@ project="2018S1SEQUOIACommissioning"
 # negative obsnums are ignored in the combinations. See also comments.txt
 # for obsnum specific comments and parameters!
 on = {}
+on['NGC628']    = [ 80043, 80045, 80087, 80089, 80091, 80093, 80097, 80099, 80101]
+on['IRC+10216'] = [ 79448, 82695, ]
 
 # parameters for the first pass of the pipeline (restart=1 is automatically enforced here)
 pars1 = {}
+pars1['NGC628'] = ""
+pars1['IRC+10216'] = "map_coord_use=1 public=2020-12-31"
 
 
 # parameters for the (optional) second pass of the pipeline (e.g. for bank=0)
 pars2 = {}
-
+pars2['IRC+10216'] = "qagrade=3"
 
 # parameters for the (optional) third pass of the pipeline (usually for bank=1)
 pars3 = {}
