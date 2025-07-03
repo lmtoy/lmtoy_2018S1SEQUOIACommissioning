@@ -13,16 +13,30 @@ project="2018S1SEQUOIACommissioning"
 on = {}
 on['NGC628']    = [ 80043, 80045, 80087, 80089, 80091, 80093, 80097, 80099, 80101]
 on['IRC+10216'] = [ 79448, 82695, ]
+on['test+10216'] = [76400, 76402, 76404, 76405, 76406, 77385, 77387, 77389, 77493,
+                    77495, 77497, 77497, 77499, 77500, 77501, 77502, 77503, 77504,
+                    77715, 77717, 77719, 77722, 77723, 77725, 77727, 77729, 77731,
+                    77733, 77735, 77736, 77737, 77818, 77820, 77990, 77992, 77994,
+                    77996, 77998, 78063, 78063, 78065, 79440, 79442, 79444, 79446,
+                    79448,
+                    82666, 82668, 82695,
+                    95121, 95123, 95125,
+                    100034, 100035, 100037,
+                    111259,
+                    ]
+
 
 # parameters for the first pass of the pipeline (restart=1 is automatically enforced here)
 pars1 = {}
 pars1['NGC628'] = ""
 pars1['IRC+10216'] = "map_coord_use=1 public=2020-12-31"
+pars1['test+10216'] = "map_coord_use=1 dv=200 dw=800"
 
 
 # parameters for the (optional) second pass of the pipeline (e.g. for bank=0)
 pars2 = {}
 pars2['IRC+10216'] = "qagrade=3"
+pars2['test+10216'] = ""
 
 # parameters for the (optional) third pass of the pipeline (usually for bank=1)
 pars3 = {}
