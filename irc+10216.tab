@@ -1,0 +1,5 @@
+#   for use with NEMO's lineid
+#   -20 is the 12CO line @ 115.2712018 ;  -310 the SiC2 @ 115.3824
+# VLSR  LMT    ARO
+-20     15.0   8.0
+-310     2.0   0.50
