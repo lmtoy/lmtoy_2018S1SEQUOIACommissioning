@@ -63,13 +63,15 @@
 
 
 
-# 13CO
+# 13CO @ 110 GHz
 
 
-
-76410  C  0.8 peak        # pix_list=-2
-77506  D  0.8 peak
+76410  C  0.8 peak   # pix_list=-2
+77506  D,ok
 77507  D,ok
 77508  D,ok
 77510  D,ok          # pix_list=-2
 
+
+76406_100037 12CO + SiC2
+76410_77510  13CO
