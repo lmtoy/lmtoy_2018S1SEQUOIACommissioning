@@ -5,18 +5,17 @@
 #
 
 76406  C  ok       # pix_list=-0
-77385   
-77387
-77389
-77493  no source
-77495
-77497
-77497
+77385  redo        # pix_list=-2,4,5
+77387  D ok
+77389  D ok
+77493  QAFAIL no source
+77495  noshow
+77497  noshow
 77499  D ok
-77500
+77500  noshow
 77501  D ok
-77502
-77503
+77502  D ok
+77503  D ok
 77504  D ok
 77715  D ok     # pix_list=-2,6
 77717  bad
@@ -47,7 +46,7 @@
 79448 bench1
 82666 D ok
 82668 D ok      # pix_list=-1
-82695
+82695 noshow
 #        2022
 95121           # pix_list=-0
 95123           # pix_list=-0
