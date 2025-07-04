@@ -25,18 +25,22 @@ on['test+10216'] = [76400, 76402, 76404, 76405, 76406, 77385, 77387, 77389, 7749
                     111259,
                     ]
 
+on['IRC+10216_13CO'] = [ 77510, 77508, 77507, 77506, 76410, ]
+
 
 # parameters for the first pass of the pipeline (restart=1 is automatically enforced here)
 pars1 = {}
-pars1['NGC628'] = ""
-pars1['IRC+10216'] = "map_coord_use=1 public=2020-12-31"
-pars1['test+10216'] = "map_coord_use=1 dv=200 dw=800"
+pars1['NGC628']         = ""
+pars1['IRC+10216']      = "map_coord_use=1 public=2020-12-31"
+pars1['IRC+10216_13CO'] = "map_coord_use=1 public=2020-12-31"
+pars1['test+10216']     = "map_coord_use=1 dv=200 dw=800"
 
 
 # parameters for the (optional) second pass of the pipeline (e.g. for bank=0)
 pars2 = {}
-pars2['IRC+10216'] = "qagrade=3"
-pars2['test+10216'] = ""
+pars2['IRC+10216']      = "qagrade=3"
+pars2['IRC+10216_13CO'] = ""
+pars2['test+10216']     = ""
 
 # parameters for the (optional) third pass of the pipeline (usually for bank=1)
 pars3 = {}
