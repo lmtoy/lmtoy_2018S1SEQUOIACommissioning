@@ -58,3 +58,15 @@
 111259__0  QAFAIL
 111259__1  QAFAIL
 
+
+
+# 13CO
+
+
+
+76410  C,ok         # pix_list=-2
+77506  D,ok
+77507  D,ok
+77508  D,ok
+77510  D,ok          # pix_list=-2
+
