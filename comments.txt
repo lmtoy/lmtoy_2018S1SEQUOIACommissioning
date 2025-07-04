@@ -4,8 +4,11 @@
 #123456__0       standard           # pix_list=-13
 #
 
+
+
+
 76406  C  ok       # pix_list=-0
-77385  redo        # pix_list=-2,4,5
+77385  D ok        # pix_list=-2,4,5
 77387  D ok
 77389  D ok
 77493  QAFAIL no source
@@ -32,9 +35,9 @@
 77737 D
 77818 QAFAIL
 77820 QAFAIL
-77990 bad?      # pix_list=-0,1,2,3,4,5,6,7
-77992           # pix_list=-0
-77994           # pix_list=-0,6
+77990 bad?       # pix_list=-0,1,2,3,4,5,6,7
+77992            # pix_list=-0
+77994            # pix_list=-0,6
 77996           # pix_list=-0
 77998           # pix_list=-0
 78063 bad?
@@ -64,8 +67,8 @@
 
 
 
-76410  C,ok         # pix_list=-2
-77506  D,ok
+76410  C  0.8 peak        # pix_list=-2
+77506  D  0.8 peak
 77507  D,ok
 77508  D,ok
 77510  D,ok          # pix_list=-2
