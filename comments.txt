@@ -3,3 +3,58 @@
 #123456__1       extra bad beam     # pix_list=-4,-13,14,15
 #123456__0       standard           # pix_list=-13
 #
+
+76406  C  ok       # pix_list=-0
+77385  redo        # pix_list=-2,4,5
+77387  D ok
+77389  D ok
+77493  QAFAIL no source
+77495  noshow
+77497  noshow
+77499  D ok
+77500  noshow
+77501  D ok
+77502  D ok
+77503  D ok
+77504  D ok
+77715  D ok     # pix_list=-2,6
+77717  bad
+77719           # pix_list=-2,4,5,6
+77722           # pix_list=-2,4,5,6
+77723           # pix_list=-2,4,5,6
+77725           # pix_list=-2,4,5,6
+77727           # pix_list=-2,4,5,6
+77729           # pix_list=-2,4,5
+77731           # pix_list=-2,4,5,6
+77733 QAFAIL
+77735 ok
+77736 D
+77737 D
+77818 QAFAIL
+77820 QAFAIL
+77990 bad?      # pix_list=-0,1,2,3,4,5,6,7
+77992           # pix_list=-0
+77994           # pix_list=-0,6
+77996           # pix_list=-0
+77998           # pix_list=-0
+78063 bad?
+78065 D ok
+79440 D ok
+79442 D ok
+79444 D ok
+79446 D ok
+79448 bench1
+82666 D ok
+82668 D ok      # pix_list=-1
+82695 noshow
+#        2022
+95121           # pix_list=-0
+95123           # pix_list=-0
+95125           # pix_list=-0
+100034          # pix_list=-0
+100035          # pix_list=-0,1
+100037          # pix_list=-0
+#        2024
+111259__0  QAFAIL
+111259__1  QAFAIL
+
